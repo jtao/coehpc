@@ -12,6 +12,5 @@
 ##OPTIONAL JOB SPECIFICATIONS
 #BSUB -u jtao@tamu.edu       #Send all emails to your email address.
 #BSUB -B -N                  #Send email on job begin (-B) and end (-N)
-whoami
-echo ""
+ml CUDA
 nvprof ./a.out
