@@ -1,0 +1,15 @@
+1. generate_commands.sh:
+
+A sample script to generate commands.in file that will feed command lines to tamulauncher.
+
+2. commands.in:
+
+Generated file containing a list of command lines.
+
+3. job_R.sh  
+
+A sample job submission script.
+
+4. t.R
+
+A sample R script that takes command line input as the argument.
